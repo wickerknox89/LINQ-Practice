@@ -17,11 +17,11 @@ List<Employee> _lstEmployees = new List<Employee>()
     new Employee(){Id=11, Username="Alok", Salary=35000, Age=42, Department="Management"},
     new Employee(){Id=12, Username="Krish", Salary=85000, Age=21, Department="Client Support"},
     new Employee(){Id=13, Username="Alok", Salary=6000, Age=32, Department="HR"},
-    new Employee(){Id=14, Username="Eshaan", Salary=5000, Age=21, Department="QA"},
+    new Employee(){Id=14, Username="Eshaan", Salary=5000, Age=21, Department="QA"}, 
     new Employee(){Id=15, Username="Alok", Salary=85000, Age=62, Department="DEV" }
 };
 
-IEnumerable<Employee> emp= _lstEmployees.Where(x => x.Salary >= 60000);
+IEnumerable<Employee> emp = _lstEmployees.Where(x => x.Salary >= 60000);
 foreach (var item in emp)
 {
     Console.WriteLine("{0} - {1} - {2} - {3} - {4}", item.Id, item.Username, item.Age, item.Department, item.Salary);
@@ -32,3 +32,6 @@ foreach (var item in emp)
 {
     Console.WriteLine($"Hello Mr.{item.Username} (Id: {item.Id}) Age: {item.Age}, Salary: {item.Salary} Department: {item.Department}");
 }
+
+
+

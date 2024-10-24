@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ-Practice", "LINQ-Practice\LINQ-Practice.csproj", "{902293EC-742E-4320-AFC5-EB0D052964D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ-Practice", "LINQ-Practice\LINQ-Practice.csproj", "{902293EC-742E-4320-AFC5-EB0D052964D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verizon-LINQ", "Verizon-LINQ\Verizon-LINQ.csproj", "{EA230E40-8233-4852-869E-14B54C583CD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{902293EC-742E-4320-AFC5-EB0D052964D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{902293EC-742E-4320-AFC5-EB0D052964D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{902293EC-742E-4320-AFC5-EB0D052964D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA230E40-8233-4852-869E-14B54C583CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA230E40-8233-4852-869E-14B54C583CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA230E40-8233-4852-869E-14B54C583CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA230E40-8233-4852-869E-14B54C583CD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
